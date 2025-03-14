@@ -1,0 +1,1 @@
+Hey, this is appendFile function in NodeJS trying to append to unexisting file.
