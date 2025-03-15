@@ -1,0 +1,5 @@
+//for keeping code organized, we use this file to send the models/Schema info to Routers/routing schemes
+
+const User = require("./User");
+
+module.exports = {User};

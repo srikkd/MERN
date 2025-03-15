@@ -1,0 +1,6 @@
+//for keeping code organized, we use this file to send the models/Schema info to Routers/routing schemes
+
+const Mentor = require("./Mentor");
+const Student = require("./Student");
+
+module.exports = {Mentor, Student};
