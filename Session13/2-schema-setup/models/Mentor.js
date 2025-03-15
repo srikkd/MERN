@@ -1,10 +1,18 @@
 const { timeStamp } = require("console");
 const mongoose = require("mongoose");
+const { type } = require("os");
 
 const MentorSchema = new mongoose.Schema({
-    name: String,
+    name: {
+      type: String,
+      required: true,
+    },
     age: Number,
-    email: String,
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+    },
     contact_no: Number,
     experience:{
         type: Number,

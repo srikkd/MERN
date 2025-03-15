@@ -13,6 +13,10 @@ const UserSchema = new mongoose.Schema({
     },
     contact_no: Number,
     dept: String,
+    experience:{
+      type: Number,
+      default: 0,
+    },
     sports:[],
   },
   {
