@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://saurabh:saurabh@cluster0.qzal9ta.mongodb.net/test-db?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://<db_username>:<db_password>@cluster0.qzal9ta.mongodb.net/<db_name>?retryWrites=true&w=majority&appName=Cluster0");
 const User = mongoose.model("users", {
     name: String,
     age: Number,

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb+srv://saurabh:saurabh@cluster0.qzal9ta.mongodb.net/referencingDB?retryWrites=true&w=majority&appName=Cluster0";
+const url = "mongodb+srv://<db_username>:<db_password>@cluster0.qzal9ta.mongodb.net/<db_name>?retryWrites=true&w=majority&appName=Cluster0";
 
 const connectDB = async()=>{
     try{
